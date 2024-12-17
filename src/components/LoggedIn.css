@@ -1,0 +1,48 @@
+/* LoggedIn.css */
+.logged-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #006400, #FFD700);
+    font-family: Arial, sans-serif;
+  }
+  
+  .logged-in-card {
+    width: 100%;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .logged-in-title {
+    font-size: 2rem;
+    color: #006400;
+    margin-bottom: 20px;
+  }
+  
+  .logged-in-message {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .back-home-button {
+    padding: 12px 20px;
+    background-color: #006400;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-home-button:hover {
+    background-color: #004d00;
+  }
+  

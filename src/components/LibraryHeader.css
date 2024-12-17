@@ -1,0 +1,43 @@
+.library-header {
+  text-align: center;
+  background: url("https://images.summitmedia-digital.com/candy/images/2022/12/02/universidad-de-manila-application-tips.png")
+    no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.udm-logo {
+  width: 100px;
+  height: auto;
+}
+
+.welcome-text {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.login-button:hover {
+  background-color: darkgreen;
+}

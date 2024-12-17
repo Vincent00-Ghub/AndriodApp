@@ -1,0 +1,82 @@
+.books-grid-container {
+    padding: 20px;
+  }
+  
+  .books-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+  }
+  
+  .book-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .book-icon {
+    font-size: 3rem;
+  }
+  
+  .book-title {
+    margin-top: 10px;
+  }
+  
+  .return-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .return-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pdf-selection-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    z-index: 10;
+  }
+  
+  .pdf-selection-modal ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pdf-selection-modal li {
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+  .pdf-selection-modal li:hover {
+    text-decoration: underline;
+  }
+  
+  .pdf-container {
+    margin-top: 20px;
+  }
+  
